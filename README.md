@@ -1,8 +1,41 @@
-# Getting Started with Create React App
+# React приложение для поиска книг
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Запуск проекта
 
-## Available Scripts
+1) https://ivanplisyakov.github.io/future/#/ - открыть в браузере
+
+2) ### `npm i`
+### `npm run start` - запустить локально
+
+## В проекте реализовано:
+- Дизайн
+- Адаптивная вёрстка
+- Поиск книг по подстроке
+- Фильтрация по категориям (частично)
+- Сортировка
+- Отрисовка книг
+- Отображение количества найденных книг или сообщение о нулевом результате
+- Пагинация по принципу 'load more'
+- Информация о книге по адрессу `/book/:id`
+- Страница 404
+- Всплывающая подсказка об ошибках сервера
+
+## В проекте не реализовано:
+- тестирование приложения
+
+## Использованные технологии:
+- HTML
+- CSS
+- JS
+- React
+- Redux
+- Git
+
+## Не использованные технологии:
+- Docker
+- TypeScript
+
+
 
 In the project directory, you can run:
 
