@@ -1,0 +1,115 @@
+.page-not-found {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  justify-items: center;
+}
+
+.page-not-found__error_overlay {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-not-found__status {
+  margin: 0;
+  text-align: center;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 740px) {
+  .page-not-found__status {
+    font-size: 80px;
+    line-height: 97px;
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1262px) {
+  .page-not-found__status {
+    font-size: 140px;
+    line-height: 169px;
+  } 
+}
+
+@media screen and (min-width: 1262px) {
+  .page-not-found__status {
+    font-size: 140px;
+    line-height: 169px;
+  } 
+}
+
+.page-not-found__text {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 740px) {
+  .page-not-found__text {
+    font-size: 12px;
+    line-height: 15px;   
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1262px) {
+  .page-not-found__text {
+    font-size: 16px;
+    line-height: 19px;
+  } 
+}
+
+@media screen and (min-width: 1262px) {
+  .page-not-found__text {
+    font-size: 16px;
+    line-height: 19px;
+  } 
+}
+
+.page-not-found__back {
+  align-self: end;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  color: #3456F3;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 740px) {
+  .page-not-found__back {
+    font-size: 12px;
+    line-height: 15px;  
+    margin: 0 0 30px 0; 
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1262px) {
+  .page-not-found__back {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 222px 0;
+  } 
+}
+
+@media screen and (min-width: 1262px) {
+  .page-not-found__back {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 60px 0;
+  } 
+}
+
+.page-not-found__back:hover {
+  opacity: 0.7;
+}

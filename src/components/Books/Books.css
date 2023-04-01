@@ -1,0 +1,98 @@
+.books__column {
+  margin: 12px;
+  background-color: #ececec;
+  border-radius: 4px;
+  padding: 22px 0;
+  
+}
+
+.books__count {
+  font-family:  Arial,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 30px auto 12px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 740px){
+  .books__count  {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1262px){
+  .books__count  {
+    font-size: 32px;
+  }   
+}
+
+@media screen and (min-width: 1262px) {
+  .books__count  {
+    font-size: 38px;
+  } 
+}
+
+.books__cards {
+  width: min-content;
+  height: 100%;
+  padding: 20px 0 0 0;
+  column-gap: 0px;
+  margin: auto;
+  column-fill: balance;
+}
+
+@media screen and (max-width: 740px){
+  .books__cards {
+    columns: 1;
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1262px){
+  .books__cards {
+    columns: 3;
+  }   
+}
+
+@media screen and (min-width: 1262px) {
+  .books__cards {
+    columns: 5;
+  } 
+}
+
+.books__load-button {
+  display: block;
+
+  margin: 120px auto 80px auto;
+  font-family: Inter,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  border-radius: 6px;
+  outline: none;
+  background-color: white;
+  border: none;
+  padding: 8px 24px;
+}
+
+@media screen and (max-width: 740px){
+  .books__load-button {
+    width: 230px;
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1262px){
+  .books__load-button {
+    width: 630px;
+  }   
+}
+
+@media screen and (min-width: 1262px) {
+  .books__load-button {
+    width: 1200px;
+  } 
+}
+
+.books__load-button_inactive {
+  display: none;
+}
+
